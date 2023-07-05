@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Cop</title>
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="./assets/img/img-1.webp" alt="img-1">
+            <div class="info-card">
+                <h3>
+                    Angel Cop - Collection Card <br> "Special Edition"
+                </h3>
+                <div>
+                    <input type="number" min="1" id="cantidad" class="cantidadclase" placeholder="Cantidad">
+                    <input type="color" class="colorclase" placeholder="Color">
+                </div>
+                <p>
+                    Precio: $ <span class="precio-inicial">50.000</span>
+                </p>
+                <div class="button">
+                    <button onclick="calcularTotal()">Calcular Total</button>
+                </div>
+            </div>
+        </div>
+        <div class="total-section">
+            <p>Total: $ <span class="valor-total">0</span></p>
+            <p>Cantidad: <span class="cantidad-total">0</span></p>
+            <div class="color">
+                <p>Color:</p>
+                <div class="colorCambiar"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Noto+Color+Emoji&display=swap');
+
+body {
+    font-family: 'koho';
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.total-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 35rem;
+    background: linear-gradient(180deg, #ffe577, #fec051, #ff8967, #fd6051, #392033);
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 15rem;
+    padding-left: 7px;
+    border-radius: 10px;
+}
+
+button{
+    width: 10rem;
+    background-color: #f3f3f3;
+    font-family: 'koho';
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    transition: all 1s;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.colorCambiar{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: solid 0.5px black;
+    background-color: black;
+}
